@@ -10,5 +10,7 @@ $ cd ~/workspace # Path to your preferred workspace
 $ git clone https://github.com/scipy-lectures/scipy-lecture-notes
 $ cd scipy-lecture-notes
 $ mkvirtualenv scipy
-$ pip install -r requirements.txt
+$ workon scipy
+(scipy)$ pip install -r requirements.txt
+(scipy)$ make html
 ```
